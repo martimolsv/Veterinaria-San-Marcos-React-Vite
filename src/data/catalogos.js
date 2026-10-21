@@ -1,0 +1,504 @@
+export const productosIniciales = [
+  {
+    "id": "ME001",
+    "name": "Amoxibay 250mg",
+    "category": "Antibióticos",
+    "active": "Amoxicilina",
+    "presentation": "Blíster 10 comp.",
+    "species": "Perro / Gato",
+    "stock": 45,
+    "price": 4200
+  },
+  {
+    "id": "ME002",
+    "name": "Enrox 50mg",
+    "category": "Antibióticos",
+    "active": "Enrofloxacino",
+    "presentation": "Blíster 10 comp.",
+    "species": "Perro / Gato",
+    "stock": 30,
+    "price": 6800
+  },
+  {
+    "id": "ME003",
+    "name": "Metrobay 250mg",
+    "category": "Antibióticos",
+    "active": "Metronidazol",
+    "presentation": "Blíster 10 comp.",
+    "species": "Perro / Gato",
+    "stock": 28,
+    "price": 3900
+  },
+  {
+    "id": "ME004",
+    "name": "Nexgard",
+    "category": "Antiparasitarios",
+    "active": "Afoxolaner",
+    "presentation": "Masticable 1 unid.",
+    "species": "Perro",
+    "stock": 60,
+    "price": 9500
+  },
+  {
+    "id": "ME005",
+    "name": "Bravecto",
+    "category": "Antiparasitarios",
+    "active": "Fluralaner",
+    "presentation": "Masticable 1 unid.",
+    "species": "Perro",
+    "stock": 40,
+    "price": 18900
+  },
+  {
+    "id": "ME006",
+    "name": "Revolution Plus",
+    "category": "Antiparasitarios",
+    "active": "Selamectina+Sarolaner",
+    "presentation": "Pipeta 1 unid.",
+    "species": "Gato",
+    "stock": 35,
+    "price": 14500
+  },
+  {
+    "id": "ME007",
+    "name": "Drontal Plus",
+    "category": "Antiparasitarios",
+    "active": "Praziquantel+Pamoato",
+    "presentation": "Comprimido 1 unid.",
+    "species": "Perro",
+    "stock": 80,
+    "price": 3200
+  },
+  {
+    "id": "ME008",
+    "name": "Milbemax Gato",
+    "category": "Antiparasitarios",
+    "active": "Milbemicina+Praziq.",
+    "presentation": "Comprimido 2 unid.",
+    "species": "Gato",
+    "stock": 50,
+    "price": 6800
+  },
+  {
+    "id": "ME009",
+    "name": "Meloxicam 1mg",
+    "category": "Antiinflamatorios",
+    "active": "Meloxicam",
+    "presentation": "Blíster 10 comp.",
+    "species": "Perro / Gato",
+    "stock": 55,
+    "price": 4500
+  },
+  {
+    "id": "ME010",
+    "name": "Carprofen 50mg",
+    "category": "Antiinflamatorios",
+    "active": "Carprofeno",
+    "presentation": "Blíster 10 comp.",
+    "species": "Perro",
+    "stock": 30,
+    "price": 9800
+  },
+  {
+    "id": "ME011",
+    "name": "Clorhexidina shampoo",
+    "category": "Dermatología",
+    "active": "Clorhexidina 2%",
+    "presentation": "Frasco 250ml",
+    "species": "Perro / Gato",
+    "stock": 25,
+    "price": 8900
+  },
+  {
+    "id": "ME012",
+    "name": "Malaseb shampoo",
+    "category": "Dermatología",
+    "active": "Miconazol+Clorhex.",
+    "presentation": "Frasco 250ml",
+    "species": "Perro / Gato",
+    "stock": 20,
+    "price": 12500
+  },
+  {
+    "id": "ME013",
+    "name": "Apoquel 16mg",
+    "category": "Dermatología",
+    "active": "Oclacitinib",
+    "presentation": "Blíster 10 comp.",
+    "species": "Perro",
+    "stock": 18,
+    "price": 22000
+  },
+  {
+    "id": "ME014",
+    "name": "Probifor",
+    "category": "Digestivo",
+    "active": "Bacillus clausii",
+    "presentation": "Sobre 5ml x10",
+    "species": "Perro / Gato",
+    "stock": 40,
+    "price": 5600
+  },
+  {
+    "id": "ME015",
+    "name": "Omeprazol 10mg vet",
+    "category": "Digestivo",
+    "active": "Omeprazol",
+    "presentation": "Blíster 10 comp.",
+    "species": "Perro / Gato",
+    "stock": 35,
+    "price": 3800
+  },
+  {
+    "id": "ME016",
+    "name": "Vetmedin 2.5mg",
+    "category": "Cardíaco",
+    "active": "Pimobendan",
+    "presentation": "Blíster 10 comp.",
+    "species": "Perro",
+    "stock": 15,
+    "price": 28000
+  },
+  {
+    "id": "ME017",
+    "name": "Tramadol 50mg vet",
+    "category": "Analgésicos",
+    "active": "Tramadol",
+    "presentation": "Blíster 10 comp.",
+    "species": "Perro",
+    "stock": 22,
+    "price": 5200
+  },
+  {
+    "id": "ME018",
+    "name": "Nobivac DHPPi",
+    "category": "Vacunas",
+    "active": "Vacuna polivalente",
+    "presentation": "Vial 1 dosis",
+    "species": "Perro",
+    "stock": 48,
+    "price": 8500
+  },
+  {
+    "id": "ME019",
+    "name": "Nobivac Rabies",
+    "category": "Vacunas",
+    "active": "Vacuna antirrábica",
+    "presentation": "Vial 1 dosis",
+    "species": "Perro / Gato",
+    "stock": 60,
+    "price": 5800
+  },
+  {
+    "id": "ME020",
+    "name": "Felocell CVR",
+    "category": "Vacunas",
+    "active": "Vacuna triple felina",
+    "presentation": "Vial 1 dosis",
+    "species": "Gato",
+    "stock": 36,
+    "price": 7200
+  },
+  {
+    "id": "ME021",
+    "name": "Omega vet 3-6-9",
+    "category": "Suplementos",
+    "active": "Ácidos grasos omega",
+    "presentation": "Frasco 100ml",
+    "species": "Perro / Gato",
+    "stock": 30,
+    "price": 9900
+  },
+  {
+    "id": "ME022",
+    "name": "Condrovet forte",
+    "category": "Suplementos",
+    "active": "Condroitín+Glucos.",
+    "presentation": "Blíster 30 comp.",
+    "species": "Perro",
+    "stock": 25,
+    "price": 14500
+  }
+];
+
+export const servicios = [
+  {
+    "id": "SV001",
+    "category": "Consultas",
+    "name": "Consulta general",
+    "species": "Perro / Gato",
+    "duration": "30 min",
+    "price": 15000,
+    "notes": ""
+  },
+  {
+    "id": "SV002",
+    "category": "Consultas",
+    "name": "Consulta urgencia",
+    "species": "Perro / Gato",
+    "duration": "30 min",
+    "price": 25000,
+    "notes": "Fuera de horario +$10.000"
+  },
+  {
+    "id": "SV003",
+    "category": "Consultas",
+    "name": "Control postoperatorio",
+    "species": "Perro / Gato",
+    "duration": "20 min",
+    "price": 10000,
+    "notes": ""
+  },
+  {
+    "id": "SV004",
+    "category": "Consultas",
+    "name": "Consulta ave / conejo",
+    "species": "Ave / Conejo",
+    "duration": "30 min",
+    "price": 18000,
+    "notes": ""
+  },
+  {
+    "id": "SV005",
+    "category": "Consultas",
+    "name": "Segunda opinión médica",
+    "species": "Todas",
+    "duration": "40 min",
+    "price": 20000,
+    "notes": "Requiere ficha previa"
+  },
+  {
+    "id": "VA001",
+    "category": "Vacunación",
+    "name": "Vacuna antirrábica canina",
+    "species": "Perro",
+    "duration": "10 min",
+    "price": 12000,
+    "notes": "Obligatoria por ley"
+  },
+  {
+    "id": "VA002",
+    "category": "Vacunación",
+    "name": "Vacuna sextuple canina",
+    "species": "Perro",
+    "duration": "10 min",
+    "price": 18000,
+    "notes": "Refuerzo anual"
+  },
+  {
+    "id": "VA003",
+    "category": "Vacunación",
+    "name": "Vacuna bivalente felina",
+    "species": "Gato",
+    "duration": "10 min",
+    "price": 15000,
+    "notes": "Refuerzo anual"
+  },
+  {
+    "id": "VA004",
+    "category": "Vacunación",
+    "name": "Vacuna triple felina",
+    "species": "Gato",
+    "duration": "10 min",
+    "price": 17000,
+    "notes": "Refuerzo anual"
+  },
+  {
+    "id": "VA005",
+    "category": "Vacunación",
+    "name": "Vacuna Bordetella canina",
+    "species": "Perro",
+    "duration": "10 min",
+    "price": 14000,
+    "notes": "Tos de las perreras"
+  },
+  {
+    "id": "VA006",
+    "category": "Vacunación",
+    "name": "Vacuna antirrábica felina",
+    "species": "Gato",
+    "duration": "10 min",
+    "price": 12000,
+    "notes": ""
+  },
+  {
+    "id": "CI001",
+    "category": "Cirugía",
+    "name": "Esterilización hembra canina",
+    "species": "Perra",
+    "duration": "90 min",
+    "price": 80000,
+    "notes": "Incluye anestesia y hospitalización 24h"
+  },
+  {
+    "id": "CI002",
+    "category": "Cirugía",
+    "name": "Esterilización macho canino",
+    "species": "Perro",
+    "duration": "60 min",
+    "price": 60000,
+    "notes": "Incluye anestesia"
+  },
+  {
+    "id": "CI003",
+    "category": "Cirugía",
+    "name": "Esterilización hembra felina",
+    "species": "Gata",
+    "duration": "60 min",
+    "price": 65000,
+    "notes": "Incluye anestesia y hospitalización 12h"
+  },
+  {
+    "id": "CI004",
+    "category": "Cirugía",
+    "name": "Esterilización macho felino",
+    "species": "Gato",
+    "duration": "45 min",
+    "price": 50000,
+    "notes": "Incluye anestesia"
+  },
+  {
+    "id": "CI005",
+    "category": "Cirugía",
+    "name": "Extirpación de tumor cutáneo",
+    "species": "Perro / Gato",
+    "duration": "60 min",
+    "price": 120000,
+    "notes": "Precio referencial; varía según tamaño"
+  },
+  {
+    "id": "CI006",
+    "category": "Cirugía",
+    "name": "Cesárea de urgencia",
+    "species": "Perra / Gata",
+    "duration": "120 min",
+    "price": 180000,
+    "notes": ""
+  },
+  {
+    "id": "DE001",
+    "category": "Desparasitación",
+    "name": "Desparasitación interna pequeños (<10 kg)",
+    "species": "Perro",
+    "duration": "5 min",
+    "price": 8000,
+    "notes": ""
+  },
+  {
+    "id": "DE002",
+    "category": "Desparasitación",
+    "name": "Desparasitación interna medianos (10-25 kg)",
+    "species": "Perro",
+    "duration": "5 min",
+    "price": 9500,
+    "notes": ""
+  },
+  {
+    "id": "DE003",
+    "category": "Desparasitación",
+    "name": "Desparasitación interna grandes (>25 kg)",
+    "species": "Perro",
+    "duration": "5 min",
+    "price": 11000,
+    "notes": ""
+  },
+  {
+    "id": "DE004",
+    "category": "Desparasitación",
+    "name": "Desparasitación interna felina",
+    "species": "Gato",
+    "duration": "5 min",
+    "price": 8000,
+    "notes": ""
+  },
+  {
+    "id": "DE005",
+    "category": "Desparasitación",
+    "name": "Antiparasitario externo (pipeta)",
+    "species": "Perro / Gato",
+    "duration": "5 min",
+    "price": 7500,
+    "notes": "Incluye aplicación"
+  },
+  {
+    "id": "EX001",
+    "category": "Exámenes",
+    "name": "Hemograma completo",
+    "species": "Perro / Gato",
+    "duration": "30 min",
+    "price": 22000,
+    "notes": "Resultado en 24-48 h"
+  },
+  {
+    "id": "EX002",
+    "category": "Exámenes",
+    "name": "Perfil bioquímico completo",
+    "species": "Perro / Gato",
+    "duration": "30 min",
+    "price": 35000,
+    "notes": "Resultado en 24-48 h"
+  },
+  {
+    "id": "EX003",
+    "category": "Exámenes",
+    "name": "Radiografía (1 proyección)",
+    "species": "Perro / Gato",
+    "duration": "20 min",
+    "price": 28000,
+    "notes": ""
+  },
+  {
+    "id": "EX004",
+    "category": "Exámenes",
+    "name": "Ecografía abdominal",
+    "species": "Perro / Gato",
+    "duration": "30 min",
+    "price": 45000,
+    "notes": ""
+  },
+  {
+    "id": "EX005",
+    "category": "Exámenes",
+    "name": "Test de leishmaniasis",
+    "species": "Perro",
+    "duration": "20 min",
+    "price": 18000,
+    "notes": ""
+  },
+  {
+    "id": "OT001",
+    "category": "Otros",
+    "name": "Corte de uñas",
+    "species": "Perro / Gato",
+    "duration": "15 min",
+    "price": 5000,
+    "notes": ""
+  },
+  {
+    "id": "OT002",
+    "category": "Otros",
+    "name": "Limpieza dental",
+    "species": "Perro / Gato",
+    "duration": "45 min",
+    "price": 55000,
+    "notes": "Requiere anestesia"
+  },
+  {
+    "id": "OT003",
+    "category": "Otros",
+    "name": "Microchip identificación",
+    "species": "Perro / Gato",
+    "duration": "10 min",
+    "price": 15000,
+    "notes": "Incluye registro"
+  },
+  {
+    "id": "OT004",
+    "category": "Otros",
+    "name": "Hospitalización (por día)",
+    "species": "Perro / Gato",
+    "duration": "24 h",
+    "price": 30000,
+    "notes": "Incluye monitoreo y alimentación básica"
+  }
+];
