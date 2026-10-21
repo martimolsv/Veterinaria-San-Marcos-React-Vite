@@ -1,5 +1,3 @@
-// Funciones pequeñas que se usan en el catálogo y el carrito.
-
 export function calcularTotal(carrito) {
   return carrito.reduce((total, producto) => {
     return total + (producto.price ?? producto.precio) * producto.cantidad;
